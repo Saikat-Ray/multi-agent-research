@@ -11,6 +11,9 @@ what "correct" means for the eval set.
 from typing import Any, Dict, List
 
 import anthropic
+from dotenv import load_dotenv
+
+load_dotenv()
 
 client = anthropic.Anthropic()
 

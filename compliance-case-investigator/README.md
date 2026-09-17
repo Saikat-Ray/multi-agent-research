@@ -37,6 +37,7 @@ compliance-case-investigator/
 ```bash
 pip install -r requirements.txt
 export ANTHROPIC_API_KEY=your_key
+export OPENAI_API_KEY=your_key
 python data/generate_synthetic_data.py
 python main.py
 ```

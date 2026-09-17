@@ -6,7 +6,11 @@ recommendation. Grounded explicitly in the retrieved similar cases and
 the screening result so the memo cites its reasoning rather than
 free-associating.
 """
+import os
 
+from dotenv import load_dotenv
+
+load_dotenv()  # Load environment variables from .env file
 from typing import Any, Dict, List
 
 import anthropic

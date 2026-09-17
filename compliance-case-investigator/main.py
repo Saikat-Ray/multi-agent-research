@@ -11,6 +11,9 @@ Prereqs:
 
 import json
 from pathlib import Path
+import os
+from dotenv import load_dotenv
+load_dotenv()  # Load environment variables from .env file
 
 from src.agents.challenger_agent import ChallengerAgent
 from src.agents.drafting_agent import DraftingAgent
