@@ -1,0 +1,27 @@
+[
+  {
+    "rule_id": "POL-001",
+    "condition": "screening status is 'match'",
+    "required_action": "recommendation must be 'decline' or 'escalate', never 'approve'"
+  },
+  {
+    "rule_id": "POL-002",
+    "condition": "screening status is 'near_miss'",
+    "required_action": "memo must explicitly address the near-miss hit and explain why it was or wasn't disqualifying"
+  },
+  {
+    "rule_id": "POL-003",
+    "condition": "recommendation is 'approve'",
+    "required_action": "memo must cite at least one similar historical case supporting approval, or explain why none was needed"
+  },
+  {
+    "rule_id": "POL-004",
+    "condition": "any recommendation",
+    "required_action": "memo must state a reasoning section, not just a bare recommendation"
+  },
+  {
+    "rule_id": "POL-005",
+    "condition": "transaction amount exceeds $100,000 (mentioned in narrative)",
+    "required_action": "recommendation must be 'escalate' unless strongly supported by similar approved cases"
+  }
+]

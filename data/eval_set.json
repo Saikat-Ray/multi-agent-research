@@ -1,0 +1,142 @@
+[
+  {
+    "case_id": "CASE-0001",
+    "entity_name": "Fatima Reyes",
+    "entity_type": "individual",
+    "narrative": "Fatima Reyes (individual) triggered review due to transactions with a jurisdiction on the high-risk list. Account age: 18 months. Transaction amount: $194,061.",
+    "disposition": "approved"
+  },
+  {
+    "case_id": "CASE-0002",
+    "entity_name": "Global Holdings",
+    "entity_type": "fintech_startup",
+    "narrative": "Global Holdings (fintech_startup) triggered review due to mismatch between stated business activity and transaction volume. Account age: 12 months. Transaction amount: $58,314.",
+    "disposition": "escalated"
+  },
+  {
+    "case_id": "CASE-0003",
+    "entity_name": "Silverline Ventures",
+    "entity_type": "fintech_startup",
+    "narrative": "Silverline Ventures (fintech_startup) triggered review due to rapid fund movement through multiple intermediary accounts. Account age: 90 months. Transaction amount: $143,853.",
+    "disposition": "escalated"
+  },
+  {
+    "case_id": "CASE-0004",
+    "entity_name": "Horizon Trading Co",
+    "entity_type": "nonprofit",
+    "narrative": "Horizon Trading Co (nonprofit) triggered review due to routine payroll disbursement consistent with account history. Account age: 90 months. Transaction amount: $111,785.",
+    "disposition": "approved"
+  },
+  {
+    "case_id": "CASE-0005",
+    "entity_name": "Meridian Holdings",
+    "entity_type": "shell_company",
+    "narrative": "Meridian Holdings (shell_company) triggered review due to payments to a counterparty with a previously flagged entity. Account age: 12 months. Transaction amount: $100,595.",
+    "disposition": "approved"
+  },
+  {
+    "case_id": "CASE-0006",
+    "entity_name": "Silverline Partners",
+    "entity_type": "trading_firm",
+    "narrative": "Silverline Partners (trading_firm) triggered review due to routine payroll disbursement consistent with account history. Account age: 69 months. Transaction amount: $33,722.",
+    "disposition": "escalated"
+  },
+  {
+    "case_id": "CASE-0007",
+    "entity_name": "Horizon Ventures",
+    "entity_type": "nonprofit",
+    "narrative": "Horizon Ventures (nonprofit) triggered review due to transactions with a jurisdiction on the high-risk list. Account age: 80 months. Transaction amount: $233,115.",
+    "disposition": "declined"
+  },
+  {
+    "case_id": "CASE-0008",
+    "entity_name": "Global Ventures",
+    "entity_type": "fintech_startup",
+    "narrative": "Global Ventures (fintech_startup) triggered review due to structuring deposits just under reporting threshold. Account age: 30 months. Transaction amount: $203,655.",
+    "disposition": "escalated"
+  },
+  {
+    "case_id": "CASE-0009",
+    "entity_name": "Elena Singh",
+    "entity_type": "individual",
+    "narrative": "Elena Singh (individual) triggered review due to routine payroll disbursement consistent with account history. Account age: 59 months. Transaction amount: $167,640.",
+    "disposition": "escalated"
+  },
+  {
+    "case_id": "CASE-0010",
+    "entity_name": "Silverline Capital",
+    "entity_type": "shell_company",
+    "narrative": "Silverline Capital (shell_company) triggered review due to rapid fund movement through multiple intermediary accounts. Account age: 90 months. Transaction amount: $246,538.",
+    "disposition": "escalated"
+  },
+  {
+    "case_id": "CASE-0011",
+    "entity_name": "Liu Reyes",
+    "entity_type": "individual",
+    "narrative": "Liu Reyes (individual) triggered review due to invoice payment matching an existing vendor relationship. Account age: 21 months. Transaction amount: $122,178.",
+    "disposition": "approved"
+  },
+  {
+    "case_id": "CASE-0012",
+    "entity_name": "Horizon Holdings",
+    "entity_type": "fintech_startup",
+    "narrative": "Horizon Holdings (fintech_startup) triggered review due to transactions with a jurisdiction on the high-risk list. Account age: 30 months. Transaction amount: $216,430.",
+    "disposition": "approved"
+  },
+  {
+    "case_id": "CASE-0013",
+    "entity_name": "Apex Logistics",
+    "entity_type": "trading_firm",
+    "narrative": "Apex Logistics (trading_firm) triggered review due to structuring deposits just under reporting threshold. Account age: 92 months. Transaction amount: $83,490.",
+    "disposition": "escalated"
+  },
+  {
+    "case_id": "CASE-0014",
+    "entity_name": "Northgate Trading Co",
+    "entity_type": "nonprofit",
+    "narrative": "Northgate Trading Co (nonprofit) triggered review due to round-trip transactions with no clear business purpose. Account age: 34 months. Transaction amount: $37,603.",
+    "disposition": "escalated"
+  },
+  {
+    "case_id": "CASE-0015",
+    "entity_name": "Vantage Partners",
+    "entity_type": "fintech_startup",
+    "narrative": "Vantage Partners (fintech_startup) triggered review due to round-trip transactions with no clear business purpose. Account age: 75 months. Transaction amount: $105,700.",
+    "disposition": "escalated"
+  },
+  {
+    "case_id": "CASE-0016",
+    "entity_name": "Horizon Holdings",
+    "entity_type": "shell_company",
+    "narrative": "Horizon Holdings (shell_company) triggered review due to structuring deposits just under reporting threshold. Account age: 15 months. Transaction amount: $41,066.",
+    "disposition": "escalated"
+  },
+  {
+    "case_id": "CASE-0017",
+    "entity_name": "Northgate Logistics",
+    "entity_type": "nonprofit",
+    "narrative": "Northgate Logistics (nonprofit) triggered review due to domestic transfer between the customer's own accounts. Account age: 60 months. Transaction amount: $139,704.",
+    "disposition": "approved"
+  },
+  {
+    "case_id": "CASE-0018",
+    "entity_name": "Silverline Ventures",
+    "entity_type": "fintech_startup",
+    "narrative": "Silverline Ventures (fintech_startup) triggered review due to routine payroll disbursement consistent with account history. Account age: 15 months. Transaction amount: $179,706.",
+    "disposition": "escalated"
+  },
+  {
+    "case_id": "CASE-0019",
+    "entity_name": "Global Capital",
+    "entity_type": "trading_firm",
+    "narrative": "Global Capital (trading_firm) triggered review due to recurring subscription billing, stable monthly amount. Account age: 56 months. Transaction amount: $42,460.",
+    "disposition": "approved"
+  },
+  {
+    "case_id": "CASE-0020",
+    "entity_name": "Vantage Holdings",
+    "entity_type": "trading_firm",
+    "narrative": "Vantage Holdings (trading_firm) triggered review due to invoice payment matching an existing vendor relationship. Account age: 81 months. Transaction amount: $79,235.",
+    "disposition": "escalated"
+  }
+]
