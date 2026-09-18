@@ -14,8 +14,10 @@ load_dotenv()  # Load environment variables from .env file
 from typing import Any, Dict, List
 
 import anthropic
+import openai
 
 client = anthropic.Anthropic()  # reads ANTHROPIC_API_KEY from env
+client1 = openai.OpenAI()  # reads OPENAI_API_KEY from env
 
 MEMO_SYSTEM_PROMPT = """You are a compliance analyst assistant. Given a \
 case, similar historical cases, and a watchlist screening result, draft a \
