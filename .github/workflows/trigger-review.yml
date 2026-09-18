@@ -1,0 +1,25 @@
+name: Trigger AI Review
+
+on:
+  issue_comment:
+    types: [created]
+
+jobs:
+  dispatch:
+    if: >
+      github.event.issue.pull_request != null &&
+      startsWith(github.event.comment.body, '/review')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dispatch to review tool repo
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.DISPATCH_PAT }}
+          repository: Saikat-Ray/agentic_code_review_tool
+          event-type: review-requested
+          client-payload: >-
+            {
+              "owner": "${{ github.repository_owner }}",
+              "repo": "${{ github.event.repository.name }}",
+              "pr_number": "${{ github.event.issue.number }}"
+            }
