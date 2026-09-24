@@ -103,7 +103,7 @@ def main():
     parser.add_argument("--eval-holdout", type=int, default=20)
     args = parser.parse_args()
 
-    random.seed(43)
+    random.seed(44)
 
     all_cases = [generate_case(i) for i in range(1, args.num_cases + 1)]
     eval_set = all_cases[: args.eval_holdout]
